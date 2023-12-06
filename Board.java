@@ -7,7 +7,6 @@ public class Board {
     public static void populate() {
         Random random = new Random();
         pileSize = random.nextInt(41) + 10;
-        Board.displayBoard();
     }
 
     public static void displayBoard() {
